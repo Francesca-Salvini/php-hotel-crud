@@ -37,7 +37,7 @@
         <li>
             Numero stanza : <?php echo $room['room_number']; ?> <br>
             Piano : <?php echo $room['floor']; ?> <br>
-            <a href="#">Vedi dettagli stanza</a>
+            <a href="room-info.php?id=<?php echo $room['id']; ?>">Vedi dettagli stanza</a>
         </li>
 
         <?php } ?>
